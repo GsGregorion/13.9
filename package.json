@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/GsGregorion/13.9#readme",
   "dependencies": {
-    "colors": "^1.3.2"
+    "colors": "^1.3.2",
+    "formidable": "^1.2.1"
   }
 }

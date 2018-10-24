@@ -1,17 +1,30 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Server - file upload training</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+
         <h1>Załaduj plik</h1>
-        
-        <form action="/upload" enctype="multipart/form-data" method="POST">
-            <label>File name</label>
-            <input type="text" name="title">
-            <br>
-            <label>Plik</label>
-            <input type="file" name="upload" multiple="multiple"><br>
-            <input type="submit" value="Wyślij">
-        </form>
+
+        <div class="container">
+            <form class="form-horizontal" action="/upload" enctype="multipart/form-data" method="POST">
+
+                <div class="form-group">
+                    <label>File name</label>
+                    <input type="text" name="title">
+                    <br>
+                </div>
+                <div class="form-group">
+                    <label>Plik</label>
+                    <input type="file" name="upload" multiple="multiple"><br>
+                    <input type="submit" value="Wyślij">
+                </div>
+
+            </form>
+        </div>
+            
     </body>
 </html>
