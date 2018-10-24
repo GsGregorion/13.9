@@ -1,0 +1,17 @@
+h1 {
+    color: rgb(44, 44, 141);
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    margin: 55px auto;
+}
+
+body form label {
+    position: relative;
+    left: 15%;
+}
+
+body form input {
+    margin: 2.5px auto;
+    border-radius: 5px;
+}
